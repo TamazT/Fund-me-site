@@ -4,5 +4,5 @@ import { abi, contractAddress } from "./constants.js"
 const connectButton = document.getElementById("connectButton")
 connectButton.onclick = connect
 function connect() {
-    colsole.log("dadadad")
+    console.log("dadadad")
 }
