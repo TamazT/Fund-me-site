@@ -5,6 +5,7 @@ const connectButton = document.getElementById("connectButton")
 const fundButton = document.getElementById("fund")
 const withDraw = document.getElementById("withdraw")
 const getBalancee = document.getElementById("getBalance")
+connectButton.onclick = connect
 getBalancee.onclick = getBalance
 withDraw.onclick = withdraw
 async function connect() {
