@@ -1,5 +1,5 @@
 const connectButton = document.getElementById("connectButton")
 connectButton.onclick = connect
 function connect() {
-    console.log("dadadad")
+    window.ethereum.request({method: "eth_requestAccounts"})
 }
